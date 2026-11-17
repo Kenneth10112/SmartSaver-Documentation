@@ -25,15 +25,15 @@
 <polyline points="582.4000000000001,227.45230769230773 614.4000000000001,227.45230769230773" fill="none" stroke="black" stroke-width="3"/>
 <text x="598.4000000000001" y="798" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" text-anchor="middle" fill="black" dominant-baseline="middle">Manual</text>
 <text x="598.4000000000001" y="297.84615384615387" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" text-anchor="middle" fill="white" dominant-baseline="middle">544.00 s</text>
-<rect x="911.6" y="769.1046153846154" width="180" height="0.8953846153846143" fill="url(#hatch)" stroke="black" stroke-width="3"/>
-<polyline points="1001.6,769.2615384615384 1001.6,768.9476923076924" fill="none" stroke="black" stroke-width="3"/>
-<polyline points="985.6,769.2615384615384 1017.6,769.2615384615384" fill="none" stroke="black" stroke-width="3"/>
-<polyline points="985.6,768.9476923076924 1017.6,768.9476923076924" fill="none" stroke="black" stroke-width="3"/>
+<rect x="911.6" y="766.6861538461538" width="180" height="3.313846153846157" fill="url(#hatch)" stroke="black" stroke-width="3"/>
+<polyline points="1001.6,766.843076923077 1001.6,766.5292307692308" fill="none" stroke="black" stroke-width="3"/>
+<polyline points="985.6,766.843076923077 1017.6,766.843076923077" fill="none" stroke="black" stroke-width="3"/>
+<polyline points="985.6,766.5292307692308 1017.6,766.5292307692308" fill="none" stroke="black" stroke-width="3"/>
 <text x="1001.6" y="798" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" text-anchor="middle" fill="black" dominant-baseline="middle">Automatic</text>
-<polyline points="1021.6,761.1046153846154 1151.6,699.1046153846154" fill="none" stroke="black" stroke-width="2"/>
-<text x="1161.6" y="691.1046153846154" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" text-anchor="start" fill="black" dominant-baseline="middle">0.97 s</text>
+<polyline points="1021.6,758.6861538461538 1151.6,696.6861538461538" fill="none" stroke="black" stroke-width="2"/>
+<text x="1161.6" y="688.6861538461538" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" text-anchor="start" fill="black" dominant-baseline="middle">3.59 s</text>
 <rect x="1060" y="178" width="450" height="74" fill="white" stroke="white" stroke-width="1"/>
-<text x="1080" y="210" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" text-anchor="start" fill="black" dominant-baseline="middle">Mean difference 543.03 s</text>
-<text x="1080" y="235" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" text-anchor="start" fill="black" dominant-baseline="middle">99.82% reduction</text>
-<text x="800" y="870" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="400" text-anchor="middle" fill="black" dominant-baseline="middle">Manual = 544.00 s; automatic = 0.97 s; n = 20 paired trials.</text>
+<text x="1080" y="210" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" text-anchor="start" fill="black" dominant-baseline="middle">Mean difference 540.41 s</text>
+<text x="1080" y="235" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" text-anchor="start" fill="black" dominant-baseline="middle">99.34% reduction</text>
+<text x="800" y="870" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="400" text-anchor="middle" fill="black" dominant-baseline="middle">Manual = 544.00 s; automatic = 3.59 s; n = 20 paired trials.</text>
 </svg>
