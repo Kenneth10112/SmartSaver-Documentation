@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="850" viewBox="0 0 1600 850">
+<defs><pattern id="hatch" width="12" height="12" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="12" height="12" fill="white"/><line x1="0" y1="0" x2="0" y2="12" stroke="black" stroke-width="3"/></pattern></defs>
+<text x="800.0" y="42" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="700" text-anchor="middle" fill="black" dominant-baseline="middle">NON-FUNCTIONAL TEST SUMMARY</text>
+<text x="800.0" y="86" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="400" text-anchor="middle" fill="black" dominant-baseline="middle">Observed checks; no numeric score</text>
+<text x="72" y="170" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" text-anchor="start" fill="black" dominant-baseline="middle">AREA</text>
+<text x="302" y="170" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" text-anchor="start" fill="black" dominant-baseline="middle">CHECK</text>
+<text x="872" y="170" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" text-anchor="start" fill="black" dominant-baseline="middle">RESULT</text>
+<text x="1212" y="170" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" text-anchor="start" fill="black" dominant-baseline="middle">LIMITATION</text>
+<polyline points="60,192 1540,192" fill="none" stroke="black" stroke-width="3"/>
+<polyline points="60,192 1540,192" fill="none" stroke="black" stroke-width="2"/>
+<text x="72" y="218" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700" text-anchor="start" fill="black" dominant-baseline="middle">Performance</text>
+<text x="302" y="204" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" text-anchor="start" fill="black" dominant-baseline="middle">Sensor update, rule evaluation,</text>
+<text x="302" y="226" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" text-anchor="start" fill="black" dominant-baseline="middle">actuator response</text>
+<text x="872" y="204" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" text-anchor="start" fill="black" dominant-baseline="middle">Responsive</text>
+<text x="1212" y="204" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" text-anchor="start" fill="black" dominant-baseline="middle">No quantitative benchmark</text>
+<polyline points="60,302 1540,302" fill="none" stroke="black" stroke-width="2"/>
+<text x="72" y="328" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700" text-anchor="start" fill="black" dominant-baseline="middle">Security</text>
+<text x="302" y="314" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" text-anchor="start" fill="black" dominant-baseline="middle">Login, session, server API key</text>
+<text x="872" y="314" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" text-anchor="start" fill="black" dominant-baseline="middle">Authentication passed</text>
+<text x="1212" y="314" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" text-anchor="start" fill="black" dominant-baseline="middle">ESP-NOW unencrypted;</text>
+<text x="1212" y="336" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" text-anchor="start" fill="black" dominant-baseline="middle">server not deployed</text>
+<polyline points="60,412 1540,412" fill="none" stroke="black" stroke-width="2"/>
+<text x="72" y="438" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700" text-anchor="start" fill="black" dominant-baseline="middle">Compatibility</text>
+<text x="302" y="424" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" text-anchor="start" fill="black" dominant-baseline="middle">Desktop and phone-sized</text>
+<text x="302" y="446" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" text-anchor="start" fill="black" dominant-baseline="middle">browser windows</text>
+<text x="872" y="424" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" text-anchor="start" fill="black" dominant-baseline="middle">Observed</text>
+<text x="1212" y="424" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" text-anchor="start" fill="black" dominant-baseline="middle">No formal browser/device matrix</text>
+<polyline points="60,522 1540,522" fill="none" stroke="black" stroke-width="2"/>
+<text x="72" y="548" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700" text-anchor="start" fill="black" dominant-baseline="middle">Reliability</text>
+<text x="302" y="534" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" text-anchor="start" fill="black" dominant-baseline="middle">Reboot, module removal,</text>
+<text x="302" y="556" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" text-anchor="start" fill="black" dominant-baseline="middle">malformed backup</text>
+<text x="872" y="534" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" text-anchor="start" fill="black" dominant-baseline="middle">Passed</text>
+<text x="1212" y="534" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" text-anchor="start" fill="black" dominant-baseline="middle">No long-duration soak test</text>
+<polyline points="60,632 1540,632" fill="none" stroke="black" stroke-width="2"/>
+<text x="72" y="658" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700" text-anchor="start" fill="black" dominant-baseline="middle">Safety</text>
+<text x="302" y="644" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" text-anchor="start" fill="black" dominant-baseline="middle">Relay boot state, low-voltage load,</text>
+<text x="302" y="666" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" text-anchor="start" fill="black" dominant-baseline="middle">connector polarity</text>
+<text x="872" y="644" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" text-anchor="start" fill="black" dominant-baseline="middle">Passed</text>
+<text x="1212" y="644" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" text-anchor="start" fill="black" dominant-baseline="middle">Low-voltage test load only</text>
+<polyline points="60,742 1540,742" fill="none" stroke="black" stroke-width="3"/>
+<text x="800" y="800" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" text-anchor="middle" fill="black" dominant-baseline="middle">Passed means observed in the local workflow; it is not a certification.</text>
+</svg>

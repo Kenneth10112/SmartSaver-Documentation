@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1320" viewBox="0 0 1600 1320">
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#000"/></marker></defs>
+<text x="800.0" y="26" font-family="Arial, Helvetica, sans-serif" font-size="40" font-weight="700" font-style="normal" text-anchor="middle" fill="black" dominant-baseline="hanging">VERIFICATION AND VALIDATION FLOW</text>
+<text x="800.0" y="80" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" font-style="italic" text-anchor="middle" fill="black" dominant-baseline="hanging">Verification asks whether the system was built correctly; validation asks whether it meets the users’ needs.</text>
+<rect x="70" y="135" width="600" height="45" fill="black"/>
+<text x="370" y="146" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700" font-style="normal" text-anchor="middle" fill="white" dominant-baseline="hanging">VERIFICATION</text>
+<rect x="840" y="135" width="700" height="45" fill="black"/>
+<text x="1190" y="146" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700" font-style="normal" text-anchor="middle" fill="white" dominant-baseline="hanging">VALIDATION</text>
+<rect x="70" y="200" width="600" height="110" fill="white" stroke="black" stroke-width="3"/>
+<text x="82" y="210" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" font-style="normal" fill="black" dominant-baseline="hanging">1. Requirements traceability</text>
+<text x="82" y="238" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="400" font-style="normal" fill="black" dominant-baseline="hanging">Each function checked against a requirement</text>
+<rect x="70" y="330" width="600" height="110" fill="white" stroke="black" stroke-width="3"/>
+<text x="82" y="340" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" font-style="normal" fill="black" dominant-baseline="hanging">2. Inspection</text>
+<text x="82" y="368" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="400" font-style="normal" fill="black" dominant-baseline="hanging">Wiring, polarity, relay state, configuration</text>
+<rect x="70" y="460" width="600" height="110" fill="white" stroke="black" stroke-width="3"/>
+<text x="82" y="470" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" font-style="normal" fill="black" dominant-baseline="hanging">3. Serial diagnostics</text>
+<text x="82" y="498" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="400" font-style="normal" fill="black" dominant-baseline="hanging">Boot, pairing, sensor read, command log</text>
+<rect x="70" y="590" width="600" height="110" fill="white" stroke="black" stroke-width="3"/>
+<text x="82" y="600" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" font-style="normal" fill="black" dominant-baseline="hanging">4. Unit testing</text>
+<text x="82" y="628" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="400" font-style="normal" fill="black" dominant-baseline="hanging">Function-level cases with expected results</text>
+<rect x="70" y="720" width="600" height="110" fill="white" stroke="black" stroke-width="3"/>
+<text x="82" y="730" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" font-style="normal" fill="black" dominant-baseline="hanging">5. Integration testing</text>
+<text x="82" y="758" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="400" font-style="normal" fill="black" dominant-baseline="hanging">Hub ↔ sensor / module / dashboard / storage</text>
+<rect x="70" y="850" width="600" height="110" fill="white" stroke="black" stroke-width="3"/>
+<text x="82" y="860" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" font-style="normal" fill="black" dominant-baseline="hanging">6. System testing</text>
+<text x="82" y="888" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="400" font-style="normal" fill="black" dominant-baseline="hanging">Complete workflow and failure cases</text>
+<polyline points="370,310 370,330" fill="none" stroke="black" stroke-width="3" marker-end="url(#arrow)"/>
+<polygon points="370,330 378.0,314.0 362.0,314.0" fill="black"/>
+<polyline points="370,440 370,460" fill="none" stroke="black" stroke-width="3" marker-end="url(#arrow)"/>
+<polygon points="370,460 378.0,444.0 362.0,444.0" fill="black"/>
+<polyline points="370,570 370,590" fill="none" stroke="black" stroke-width="3" marker-end="url(#arrow)"/>
+<polygon points="370,590 378.0,574.0 362.0,574.0" fill="black"/>
+<polyline points="370,700 370,720" fill="none" stroke="black" stroke-width="3" marker-end="url(#arrow)"/>
+<polygon points="370,720 378.0,704.0 362.0,704.0" fill="black"/>
+<polyline points="370,830 370,850" fill="none" stroke="black" stroke-width="3" marker-end="url(#arrow)"/>
+<polygon points="370,850 378.0,834.0 362.0,834.0" fill="black"/>
+<rect x="840" y="200" width="300" height="110" fill="white" stroke="black" stroke-width="3"/>
+<rect x="840" y="200" width="300" height="42" fill="black"/>
+<text x="852" y="221" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="white" dominant-baseline="middle">HOUSEHOLD SESSION</text>
+<text x="852" y="252" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="400" font-style="normal" fill="black" dominant-baseline="hanging">6 occupants · representative tasks</text>
+<rect x="840" y="330" width="300" height="110" fill="white" stroke="black" stroke-width="3"/>
+<rect x="840" y="330" width="300" height="42" fill="black"/>
+<text x="852" y="351" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="white" dominant-baseline="middle">NON-HOUSEHOLD SESSION</text>
+<text x="852" y="382" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="400" font-style="normal" fill="black" dominant-baseline="hanging">20 adults · guided tasks</text>
+<rect x="840" y="460" width="300" height="110" fill="white" stroke="black" stroke-width="3"/>
+<rect x="840" y="460" width="300" height="42" fill="black"/>
+<text x="852" y="481" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="white" dominant-baseline="middle">TAM ANALYSIS</text>
+<text x="852" y="512" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="400" font-style="normal" fill="black" dominant-baseline="hanging">26 users · PEOU + PU</text>
+<polyline points="990,310 990,330" fill="none" stroke="black" stroke-width="3" marker-end="url(#arrow)"/>
+<polygon points="990,330 998.0,314.0 982.0,314.0" fill="black"/>
+<polyline points="990,440 990,460" fill="none" stroke="black" stroke-width="3" marker-end="url(#arrow)"/>
+<polygon points="990,460 998.0,444.0 982.0,444.0" fill="black"/>
+<rect x="840" y="600" width="300" height="85" fill="white" stroke="black" stroke-width="3"/>
+<text x="852" y="610" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" font-style="normal" fill="black" dominant-baseline="hanging">TAM DATA</text>
+<text x="852" y="638" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="400" font-style="normal" fill="black" dominant-baseline="hanging">PEOU and PU results</text>
+<polyline points="990,570 990,600" fill="none" stroke="black" stroke-width="3" marker-end="url(#arrow)"/>
+<polygon points="990,600 998.0,584.0 982.0,584.0" fill="black"/>
+<rect x="1190" y="200" width="350" height="110" fill="white" stroke="black" stroke-width="3"/>
+<rect x="1190" y="200" width="350" height="42" fill="black"/>
+<text x="1202" y="221" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="white" dominant-baseline="middle">EXPERT INSPECTION</text>
+<text x="1202" y="252" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="400" font-style="normal" fill="black" dominant-baseline="hanging">5 IT professionals</text>
+<rect x="1190" y="330" width="350" height="110" fill="white" stroke="black" stroke-width="3"/>
+<rect x="1190" y="330" width="350" height="42" fill="black"/>
+<text x="1202" y="351" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="white" dominant-baseline="middle">ISO/IEC 25010 RATING</text>
+<text x="1202" y="382" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="400" font-style="normal" fill="black" dominant-baseline="hanging">Eight quality characteristics</text>
+<polyline points="1365,310 1365,330" fill="none" stroke="black" stroke-width="3" marker-end="url(#arrow)"/>
+<polygon points="1365,330 1373.0,314.0 1357.0,314.0" fill="black"/>
+<rect x="1190" y="470" width="350" height="85" fill="white" stroke="black" stroke-width="3"/>
+<text x="1202" y="480" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" font-style="normal" fill="black" dominant-baseline="hanging">ISO DATA</text>
+<text x="1202" y="508" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="400" font-style="normal" fill="black" dominant-baseline="hanging">Quality ratings</text>
+<polyline points="1365,440 1365,470" fill="none" stroke="black" stroke-width="3" marker-end="url(#arrow)"/>
+<polygon points="1365,470 1373.0,454.0 1357.0,454.0" fill="black"/>
+<rect x="200" y="1030" width="600" height="145" fill="white" stroke="black" stroke-width="3"/>
+<rect x="200" y="1030" width="600" height="42" fill="black"/>
+<text x="212" y="1051" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="white" dominant-baseline="middle">DEFECT LOG / PASS–FAIL</text>
+<text x="212" y="1082" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="400" font-style="normal" fill="black" dominant-baseline="hanging">Failed cases return to the originating phase for correction.</text>
+<text x="212" y="1103" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="400" font-style="normal" fill="black" dominant-baseline="hanging">Regression repeats unit and integration testing.</text>
+<polyline points="720,665 720,1030" fill="none" stroke="black" stroke-width="3" marker-end="url(#arrow)"/>
+<polygon points="720,1030 728.0,1014.0 712.0,1014.0" fill="black"/>
+<polyline points="670,665 720,665" fill="none" stroke="black" stroke-width="3" marker-end="url(#arrow)"/>
+<polygon points="720,665 704.0,657.0 704.0,673.0" fill="black"/>
+<polyline points="670,795 720,795" fill="none" stroke="black" stroke-width="3" marker-end="url(#arrow)"/>
+<polygon points="720,795 704.0,787.0 704.0,803.0" fill="black"/>
+<polyline points="670,925 720,925" fill="none" stroke="black" stroke-width="3" marker-end="url(#arrow)"/>
+<polygon points="720,925 704.0,917.0 704.0,933.0" fill="black"/>
+<rect x="689" y="836" width="92" height="18" fill="white"/>
+<text x="735" y="845" font-family="Arial, Helvetica, sans-serif" font-size="16" font-style="italic" text-anchor="middle" fill="black" dominant-baseline="middle">failed cases</text>
+<polyline points="200,1102 30,1102 30,255 70,255" fill="none" stroke="black" stroke-width="3" marker-end="url(#arrow)"/>
+<polygon points="70,255 54.0,247.0 54.0,263.0" fill="black"/>
+<rect x="32" y="1109" width="76" height="18" fill="white"/>
+<text x="70" y="1118" font-family="Arial, Helvetica, sans-serif" font-size="16" font-style="italic" text-anchor="middle" fill="black" dominant-baseline="middle">correction</text>
+<polyline points="800,1102 800,1102 800,620 670,620" fill="none" stroke="black" stroke-width="3" marker-end="url(#arrow)"/>
+<polygon points="670,620 686.0,628.0 686.0,612.0" fill="black"/>
+<polyline points="800,750 670,750" fill="none" stroke="black" stroke-width="3" marker-end="url(#arrow)"/>
+<polygon points="670,750 686.0,758.0 686.0,742.0" fill="black"/>
+<rect x="774" y="991" width="81" height="21" fill="white"/>
+<text x="815" y="1000" font-family="Arial, Helvetica, sans-serif" font-size="16" font-style="italic" text-anchor="middle" fill="black" dominant-baseline="middle">regression</text>
+<text x="800.0" y="1225" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="400" font-style="italic" text-anchor="middle" fill="black" dominant-baseline="hanging">Verification evidence: pass/fail record and defect list. Validation evidence: TAM data and ISO ratings.</text>
+</svg>

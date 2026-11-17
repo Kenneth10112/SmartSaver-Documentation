@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000">
+<defs><pattern id="hatch" width="12" height="12" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="12" height="12" fill="white"/><line x1="0" y1="0" x2="0" y2="12" stroke="black" stroke-width="3"/></pattern></defs>
+<text x="800.0" y="42" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="700" text-anchor="middle" fill="black" dominant-baseline="middle">ISO/IEC 25010 CHARACTERISTIC MEANS</text>
+<text x="800.0" y="86" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="400" text-anchor="middle" fill="black" dominant-baseline="middle">Five IT professional evaluators; 4-point scale; axis starts at 3.0</text>
+<polyline points="500.0,170 500.0,820" fill="none" stroke="black" stroke-width="1" stroke-dasharray="10 7"/>
+<text x="500.0" y="848" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" text-anchor="middle" fill="black" dominant-baseline="middle">3.0</text>
+<polyline points="700.0000000000002,170 700.0000000000002,820" fill="none" stroke="black" stroke-width="1" stroke-dasharray="10 7"/>
+<text x="700.0000000000002" y="848" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" text-anchor="middle" fill="black" dominant-baseline="middle">3.2</text>
+<polyline points="899.9999999999999,170 899.9999999999999,820" fill="none" stroke="black" stroke-width="1" stroke-dasharray="10 7"/>
+<text x="899.9999999999999" y="848" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" text-anchor="middle" fill="black" dominant-baseline="middle">3.4</text>
+<polyline points="1100.0,170 1100.0,820" fill="none" stroke="black" stroke-width="1" stroke-dasharray="10 7"/>
+<text x="1100.0" y="848" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" text-anchor="middle" fill="black" dominant-baseline="middle">3.6</text>
+<polyline points="1299.9999999999998,170 1299.9999999999998,820" fill="none" stroke="black" stroke-width="1" stroke-dasharray="10 7"/>
+<text x="1299.9999999999998" y="848" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" text-anchor="middle" fill="black" dominant-baseline="middle">3.8</text>
+<polyline points="1500.0,170 1500.0,820" fill="none" stroke="black" stroke-width="1" stroke-dasharray="10 7"/>
+<text x="1500.0" y="848" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" text-anchor="middle" fill="black" dominant-baseline="middle">4.0</text>
+<polyline points="500,170 500,820" fill="none" stroke="black" stroke-width="3"/>
+<polyline points="500,820 1500,820" fill="none" stroke="black" stroke-width="3"/>
+<text x="482" y="208.0" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="400" text-anchor="end" fill="black" dominant-baseline="middle">Functional suitability</text>
+<rect x="500" y="182.0" width="600.0" height="52" fill="black" stroke="black" stroke-width="3"/>
+<text x="1090.0" y="208.0" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="700" text-anchor="end" fill="white" dominant-baseline="middle">3.60</text>
+<text x="482" y="289.25" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="400" text-anchor="end" fill="black" dominant-baseline="middle">Performance efficiency</text>
+<rect x="500" y="263.25" width="520.0" height="52" fill="black" stroke="black" stroke-width="3"/>
+<text x="1010.0" y="289.25" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="700" text-anchor="end" fill="white" dominant-baseline="middle">3.52</text>
+<text x="482" y="370.5" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="400" text-anchor="end" fill="black" dominant-baseline="middle">Reliability</text>
+<rect x="500" y="344.5" width="870.0" height="52" fill="black" stroke="black" stroke-width="3"/>
+<text x="1360.0" y="370.5" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="700" text-anchor="end" fill="white" dominant-baseline="middle">3.87</text>
+<text x="482" y="451.75" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="400" text-anchor="end" fill="black" dominant-baseline="middle">Usability</text>
+<rect x="500" y="425.75" width="500.0" height="52" fill="black" stroke="black" stroke-width="3"/>
+<text x="990.0" y="451.75" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="700" text-anchor="end" fill="white" dominant-baseline="middle">3.50</text>
+<text x="482" y="533.0" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="400" text-anchor="end" fill="black" dominant-baseline="middle">Security</text>
+<rect x="500" y="507.0" width="500.0" height="52" fill="black" stroke="black" stroke-width="3"/>
+<text x="990.0" y="533.0" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="700" text-anchor="end" fill="white" dominant-baseline="middle">3.50</text>
+<text x="482" y="614.25" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="400" text-anchor="end" fill="black" dominant-baseline="middle">Compatibility</text>
+<rect x="500" y="588.25" width="600.0" height="52" fill="black" stroke="black" stroke-width="3"/>
+<text x="1090.0" y="614.25" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="700" text-anchor="end" fill="white" dominant-baseline="middle">3.60</text>
+<text x="482" y="695.5" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="400" text-anchor="end" fill="black" dominant-baseline="middle">Maintainability</text>
+<rect x="500" y="669.5" width="560.0" height="52" fill="black" stroke="black" stroke-width="3"/>
+<text x="1050.0" y="695.5" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="700" text-anchor="end" fill="white" dominant-baseline="middle">3.56</text>
+<text x="482" y="776.75" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="400" text-anchor="end" fill="black" dominant-baseline="middle">Portability</text>
+<rect x="500" y="750.75" width="600.0" height="52" fill="black" stroke="black" stroke-width="3"/>
+<text x="1090.0" y="776.75" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="700" text-anchor="end" fill="white" dominant-baseline="middle">3.60</text>
+<polyline points="1090.0,160 1090.0,820" fill="none" stroke="black" stroke-width="2" stroke-dasharray="10 7"/>
+<text x="1098.0" y="144" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" text-anchor="start" fill="black" dominant-baseline="middle">Overall 3.59</text>
+<text x="800" y="930" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" text-anchor="middle" fill="black" dominant-baseline="middle">Axis starts at 3.0 to make differences visible; all values are in the Highly Acceptable range.</text>
+</svg>

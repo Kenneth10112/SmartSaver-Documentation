@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="1580" viewBox="0 0 1500 1580">
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#000"/></marker></defs>
+<text x="750.0" y="26" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="700" font-style="normal" text-anchor="middle" fill="black" dominant-baseline="hanging">DATA GATHERING PROCEDURE</text>
+<text x="750.0" y="82" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="400" font-style="italic" text-anchor="middle" fill="black" dominant-baseline="hanging">Preparation and consent → household testing → non-household adult testing → expert evaluation → data handling</text>
+<rect x="160" y="145" width="1180" height="225" fill="white" stroke="black" stroke-width="3"/>
+<rect x="160" y="145" width="1180" height="48" fill="black"/>
+<text x="178" y="169" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700" fill="white" dominant-baseline="middle">1. PREPARATION AND CONSENT</text>
+<text x="180" y="209" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="400" font-style="normal" fill="black" dominant-baseline="hanging">Explain the purpose, voluntary participation, and the 18+ requirement</text>
+<text x="180" y="236" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="400" font-style="normal" fill="black" dominant-baseline="hanging">Secure informed consent and assign anonymous response codes</text>
+<text x="180" y="263" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="400" font-style="normal" fill="black" dominant-baseline="hanging">Disclose that the History Server is not deployed; savings items are planned, not observed</text>
+<rect x="160" y="410" width="1180" height="225" fill="white" stroke="black" stroke-width="3"/>
+<rect x="160" y="410" width="1180" height="48" fill="black"/>
+<text x="178" y="434" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700" fill="white" dominant-baseline="middle">2. HOUSEHOLD TESTING</text>
+<text x="180" y="474" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="400" font-style="normal" fill="black" dominant-baseline="hanging">6 household occupants in their own homes in Bocaue, Bulacan</text>
+<text x="180" y="501" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="400" font-style="normal" fill="black" dominant-baseline="hanging">Everyday rooms, appliances, and routines</text>
+<text x="180" y="528" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="400" font-style="normal" fill="black" dominant-baseline="hanging">15-step guide and TAM questionnaire</text>
+<rect x="160" y="675" width="1180" height="225" fill="white" stroke="black" stroke-width="3"/>
+<rect x="160" y="675" width="1180" height="48" fill="black"/>
+<text x="178" y="699" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700" fill="white" dominant-baseline="middle">3. NON-HOUSEHOLD ADULT TESTING</text>
+<text x="180" y="739" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="400" font-style="normal" fill="black" dominant-baseline="hanging">20 adults recruited from outside the household</text>
+<text x="180" y="766" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="400" font-style="normal" fill="black" dominant-baseline="hanging">Neutral community setting; single guided session</text>
+<text x="180" y="793" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="400" font-style="normal" fill="black" dominant-baseline="hanging">15-step guide and TAM questionnaire</text>
+<rect x="160" y="940" width="1180" height="225" fill="white" stroke="black" stroke-width="3"/>
+<rect x="160" y="940" width="1180" height="48" fill="black"/>
+<text x="178" y="964" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700" fill="white" dominant-baseline="middle">4. EXPERT EVALUATION — SEPARATE PANEL</text>
+<text x="180" y="1004" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="400" font-style="normal" fill="black" dominant-baseline="hanging">5 IT professionals working in the industry</text>
+<text x="180" y="1031" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="400" font-style="normal" fill="black" dominant-baseline="hanging">Inspection, demonstration, and documentation review</text>
+<text x="180" y="1058" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="400" font-style="normal" fill="black" dominant-baseline="hanging">46-item ISO/IEC 25010:2023 instrument</text>
+<rect x="160" y="1205" width="1180" height="225" fill="white" stroke="black" stroke-width="3"/>
+<rect x="160" y="1205" width="1180" height="48" fill="black"/>
+<text x="178" y="1229" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700" fill="white" dominant-baseline="middle">5. DATA HANDLING</text>
+<text x="180" y="1269" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="400" font-style="normal" fill="black" dominant-baseline="hanging">Anonymize and code the responses</text>
+<text x="180" y="1296" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="400" font-style="normal" fill="black" dominant-baseline="hanging">Check completeness; separate the TAM and ISO datasets</text>
+<text x="180" y="1323" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="400" font-style="normal" fill="black" dominant-baseline="hanging">Prepare the data for descriptive and inferential analysis</text>
+<polyline points="750,370 750,410" fill="none" stroke="black" stroke-width="3" marker-end="url(#arrow)"/>
+<polygon points="750,410 759.0,392.0 741.0,392.0" fill="black"/>
+<polyline points="750,635 750,675" fill="none" stroke="black" stroke-width="3" marker-end="url(#arrow)"/>
+<polygon points="750,675 759.0,657.0 741.0,657.0" fill="black"/>
+<polyline points="750,900 750,940" fill="none" stroke="black" stroke-width="3" marker-end="url(#arrow)"/>
+<polygon points="750,940 759.0,922.0 741.0,922.0" fill="black"/>
+<polyline points="750,1165 750,1205" fill="none" stroke="black" stroke-width="3" marker-end="url(#arrow)"/>
+<polygon points="750,1205 759.0,1187.0 741.0,1187.0" fill="black"/>
+<rect x="734" y="380" width="72" height="21" fill="white"/>
+<text x="770" y="390" font-family="Arial, Helvetica, sans-serif" font-size="18" font-style="italic" text-anchor="middle" fill="black" dominant-baseline="middle">consent</text>
+<rect x="723" y="645" width="93" height="25" fill="white"/>
+<text x="770" y="655" font-family="Arial, Helvetica, sans-serif" font-size="18" font-style="italic" text-anchor="middle" fill="black" dominant-baseline="middle">next group</text>
+<rect x="706" y="910" width="128" height="25" fill="white"/>
+<text x="770" y="920" font-family="Arial, Helvetica, sans-serif" font-size="18" font-style="italic" text-anchor="middle" fill="black" dominant-baseline="middle">separate panel</text>
+<rect x="711" y="1175" width="117" height="21" fill="white"/>
+<text x="770" y="1185" font-family="Arial, Helvetica, sans-serif" font-size="18" font-style="italic" text-anchor="middle" fill="black" dominant-baseline="middle">encoded data</text>
+<text x="750.0" y="1495" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" font-style="italic" text-anchor="middle" fill="black" dominant-baseline="hanging">All stages used the same prototype. The History Server was not deployed, so server-side savings and analytics were not evaluated.</text>
+</svg>

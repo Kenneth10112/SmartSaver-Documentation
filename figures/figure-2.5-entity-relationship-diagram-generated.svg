@@ -1,0 +1,159 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1280" viewBox="0 0 1600 1280">
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#000"/></marker></defs>
+<text x="800.0" y="34" font-family="Arial, Helvetica, sans-serif" font-size="40" font-weight="700" font-style="normal" text-anchor="middle" fill="black" dominant-baseline="middle">ENTITY RELATIONSHIP DIAGRAM</text>
+<text x="800.0" y="82" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="400" font-style="italic" text-anchor="middle" fill="black" dominant-baseline="middle">Logical data model for the Hub and the planned History Server</text>
+<rect x="60" y="160" width="340" height="200" fill="white" stroke="black" stroke-width="3"/>
+<rect x="60" y="160" width="340" height="44" fill="black"/>
+<text x="230.0" y="182" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" font-style="normal" text-anchor="middle" fill="white" dominant-baseline="middle">DEVICE</text>
+<text x="72" y="220" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" font-style="normal" text-anchor="start" fill="black" dominant-baseline="middle">PK</text>
+<text x="110" y="220" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="400" font-style="normal" text-anchor="start" fill="black" dominant-baseline="middle">device_id</text>
+<text x="72" y="248" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="400" font-style="normal" text-anchor="start" fill="black" dominant-baseline="middle">MAC address</text>
+<text x="72" y="276" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="400" font-style="normal" text-anchor="start" fill="black" dominant-baseline="middle">mod_id</text>
+<text x="72" y="304" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="400" font-style="normal" text-anchor="start" fill="black" dominant-baseline="middle">module_type</text>
+<text x="72" y="332" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="400" font-style="normal" text-anchor="start" fill="black" dominant-baseline="middle">last_seen</text>
+<rect x="630" y="160" width="340" height="250" fill="white" stroke="black" stroke-width="3"/>
+<rect x="630" y="160" width="340" height="44" fill="black"/>
+<text x="800.0" y="182" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" font-style="normal" text-anchor="middle" fill="white" dominant-baseline="middle">PART</text>
+<text x="642" y="220" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" font-style="normal" text-anchor="start" fill="black" dominant-baseline="middle">PK</text>
+<text x="680" y="220" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="400" font-style="normal" text-anchor="start" fill="black" dominant-baseline="middle">part_id</text>
+<text x="642" y="248" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" font-style="normal" text-anchor="start" fill="black" dominant-baseline="middle">FK</text>
+<text x="680" y="248" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="400" font-style="normal" text-anchor="start" fill="black" dominant-baseline="middle">device_id</text>
+<text x="642" y="276" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="400" font-style="normal" text-anchor="start" fill="black" dominant-baseline="middle">kind</text>
+<text x="642" y="304" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="400" font-style="normal" text-anchor="start" fill="black" dominant-baseline="middle">capability</text>
+<text x="642" y="332" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="400" font-style="normal" text-anchor="start" fill="black" dominant-baseline="middle">display_name</text>
+<text x="642" y="360" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="400" font-style="normal" text-anchor="start" fill="black" dominant-baseline="middle">enabled</text>
+<rect x="1200" y="160" width="340" height="250" fill="white" stroke="black" stroke-width="3"/>
+<rect x="1200" y="160" width="340" height="44" fill="black"/>
+<text x="1370.0" y="182" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" font-style="normal" text-anchor="middle" fill="white" dominant-baseline="middle">RULE</text>
+<text x="1212" y="220" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" font-style="normal" text-anchor="start" fill="black" dominant-baseline="middle">PK</text>
+<text x="1250" y="220" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="400" font-style="normal" text-anchor="start" fill="black" dominant-baseline="middle">rule_id</text>
+<text x="1212" y="248" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" font-style="normal" text-anchor="start" fill="black" dominant-baseline="middle">FK</text>
+<text x="1250" y="248" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="400" font-style="normal" text-anchor="start" fill="black" dominant-baseline="middle">trigger_part_id</text>
+<text x="1212" y="276" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" font-style="normal" text-anchor="start" fill="black" dominant-baseline="middle">FK</text>
+<text x="1250" y="276" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="400" font-style="normal" text-anchor="start" fill="black" dominant-baseline="middle">action_part_id</text>
+<text x="1212" y="304" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="400" font-style="normal" text-anchor="start" fill="black" dominant-baseline="middle">priority</text>
+<text x="1212" y="332" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="400" font-style="normal" text-anchor="start" fill="black" dominant-baseline="middle">enabled</text>
+<rect x="60" y="480" width="340" height="200" fill="white" stroke="black" stroke-width="3"/>
+<rect x="60" y="480" width="340" height="44" fill="black"/>
+<text x="230.0" y="502" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" font-style="normal" text-anchor="middle" fill="white" dominant-baseline="middle">READING</text>
+<text x="72" y="540" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" font-style="normal" text-anchor="start" fill="black" dominant-baseline="middle">PK</text>
+<text x="110" y="540" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="400" font-style="normal" text-anchor="start" fill="black" dominant-baseline="middle">reading_id</text>
+<text x="72" y="568" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" font-style="normal" text-anchor="start" fill="black" dominant-baseline="middle">FK</text>
+<text x="110" y="568" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="400" font-style="normal" text-anchor="start" fill="black" dominant-baseline="middle">part_id</text>
+<text x="72" y="596" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="400" font-style="normal" text-anchor="start" fill="black" dominant-baseline="middle">value</text>
+<text x="72" y="624" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="400" font-style="normal" text-anchor="start" fill="black" dominant-baseline="middle">timestamp</text>
+<rect x="630" y="480" width="340" height="200" fill="white" stroke="black" stroke-width="3"/>
+<rect x="630" y="480" width="340" height="44" fill="black"/>
+<text x="800.0" y="502" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" font-style="normal" text-anchor="middle" fill="white" dominant-baseline="middle">TOPOLOGY</text>
+<text x="642" y="540" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" font-style="normal" text-anchor="start" fill="black" dominant-baseline="middle">PK</text>
+<text x="680" y="540" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="400" font-style="normal" text-anchor="start" fill="black" dominant-baseline="middle">topology_id</text>
+<text x="642" y="568" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" font-style="normal" text-anchor="start" fill="black" dominant-baseline="middle">FK</text>
+<text x="680" y="568" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="400" font-style="normal" text-anchor="start" fill="black" dominant-baseline="middle">device_id</text>
+<text x="642" y="596" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" font-style="normal" text-anchor="start" fill="black" dominant-baseline="middle">FK</text>
+<text x="680" y="596" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="400" font-style="normal" text-anchor="start" fill="black" dominant-baseline="middle">part_id</text>
+<text x="642" y="624" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="400" font-style="normal" text-anchor="start" fill="black" dominant-baseline="middle">change_type</text>
+<text x="642" y="652" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="400" font-style="normal" text-anchor="start" fill="black" dominant-baseline="middle">timestamp</text>
+<rect x="1200" y="480" width="340" height="220" fill="white" stroke="black" stroke-width="3"/>
+<rect x="1200" y="480" width="340" height="44" fill="black"/>
+<text x="1370.0" y="502" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" font-style="normal" text-anchor="middle" fill="white" dominant-baseline="middle">SETTINGS</text>
+<text x="1212" y="540" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" font-style="normal" text-anchor="start" fill="black" dominant-baseline="middle">PK</text>
+<text x="1250" y="540" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="400" font-style="normal" text-anchor="start" fill="black" dominant-baseline="middle">settings_id</text>
+<text x="1212" y="568" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="400" font-style="normal" text-anchor="start" fill="black" dominant-baseline="middle">time_zone</text>
+<text x="1212" y="596" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="400" font-style="normal" text-anchor="start" fill="black" dominant-baseline="middle">tariff</text>
+<text x="1212" y="624" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="400" font-style="normal" text-anchor="start" fill="black" dominant-baseline="middle">baseline</text>
+<text x="1212" y="652" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="400" font-style="normal" text-anchor="start" fill="black" dominant-baseline="middle">buzzer</text>
+<text x="1212" y="680" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="400" font-style="normal" text-anchor="start" fill="black" dominant-baseline="middle">UI preference</text>
+<rect x="1140" y="780" width="400" height="230" fill="white" stroke="black" stroke-width="3"/>
+<rect x="1140" y="780" width="400" height="44" fill="black"/>
+<text x="1340.0" y="802" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" font-style="normal" text-anchor="middle" fill="white" dominant-baseline="middle">DERIVED SAVINGS</text>
+<text x="1152" y="840" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" font-style="normal" text-anchor="start" fill="black" dominant-baseline="middle">PK</text>
+<text x="1190" y="840" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="400" font-style="normal" text-anchor="start" fill="black" dominant-baseline="middle">savings_id</text>
+<text x="1152" y="868" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" font-style="normal" text-anchor="start" fill="black" dominant-baseline="middle">FK</text>
+<text x="1190" y="868" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="400" font-style="normal" text-anchor="start" fill="black" dominant-baseline="middle">part_id</text>
+<text x="1152" y="896" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" font-style="normal" text-anchor="start" fill="black" dominant-baseline="middle">FK</text>
+<text x="1190" y="896" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="400" font-style="normal" text-anchor="start" fill="black" dominant-baseline="middle">settings_id</text>
+<text x="1152" y="924" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="400" font-style="normal" text-anchor="start" fill="black" dominant-baseline="middle">runtime</text>
+<text x="1152" y="952" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="400" font-style="normal" text-anchor="start" fill="black" dominant-baseline="middle">energy</text>
+<text x="1152" y="980" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="400" font-style="normal" text-anchor="start" fill="black" dominant-baseline="middle">cost</text>
+<polyline points="400,270 630,270" fill="none" stroke="black" stroke-width="3"/>
+<line x1="408.0" y1="262.0" x2="408.0" y2="278.0" stroke="black" stroke-width="3"/>
+<text x="412" y="258" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" font-style="normal" text-anchor="start" fill="black" dominant-baseline="middle">1</text>
+<text x="618" y="258" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" font-style="normal" text-anchor="end" fill="black" dominant-baseline="middle">0..1</text>
+<rect x="478" y="246" width="74" height="20" fill="white"/>
+<text x="515" y="252" font-family="Arial, Helvetica, sans-serif" font-size="18" font-style="italic" text-anchor="middle" fill="black" dominant-baseline="middle">exposes</text>
+<polyline points="630,350 520,350 520,580 400,580" fill="none" stroke="black" stroke-width="3"/>
+<line x1="622.0" y1="358.0" x2="622.0" y2="342.0" stroke="black" stroke-width="3"/>
+<line x1="400" y1="580" x2="414.0" y2="590.0" stroke="black" stroke-width="3"/>
+<line x1="400" y1="580" x2="414.0" y2="580.0" stroke="black" stroke-width="3"/>
+<line x1="400" y1="580" x2="414.0" y2="570.0" stroke="black" stroke-width="3"/>
+<text x="618" y="338" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" font-style="normal" text-anchor="end" fill="black" dominant-baseline="middle">1</text>
+<text x="412" y="568" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" font-style="normal" text-anchor="start" fill="black" dominant-baseline="middle">N</text>
+<rect x="502" y="446" width="36" height="19" fill="white"/>
+<text x="520" y="455" font-family="Arial, Helvetica, sans-serif" font-size="18" font-style="italic" text-anchor="middle" fill="black" dominant-baseline="middle">has</text>
+<polyline points="970,240 1200,240" fill="none" stroke="black" stroke-width="3"/>
+<line x1="978.0" y1="232.0" x2="978.0" y2="248.0" stroke="black" stroke-width="3"/>
+<line x1="1200" y1="240" x2="1186.0" y2="230.0" stroke="black" stroke-width="3"/>
+<line x1="1200" y1="240" x2="1186.0" y2="240.0" stroke="black" stroke-width="3"/>
+<line x1="1200" y1="240" x2="1186.0" y2="250.0" stroke="black" stroke-width="3"/>
+<text x="982" y="228" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" font-style="normal" text-anchor="start" fill="black" dominant-baseline="middle">1</text>
+<text x="1188" y="228" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" font-style="normal" text-anchor="end" fill="black" dominant-baseline="middle">N</text>
+<rect x="1056" y="213" width="59" height="23" fill="white"/>
+<text x="1085" y="222" font-family="Arial, Helvetica, sans-serif" font-size="18" font-style="italic" text-anchor="middle" fill="black" dominant-baseline="middle">trigger</text>
+<polyline points="970,320 1200,320" fill="none" stroke="black" stroke-width="3"/>
+<line x1="978.0" y1="312.0" x2="978.0" y2="328.0" stroke="black" stroke-width="3"/>
+<line x1="1200" y1="320" x2="1186.0" y2="310.0" stroke="black" stroke-width="3"/>
+<line x1="1200" y1="320" x2="1186.0" y2="320.0" stroke="black" stroke-width="3"/>
+<line x1="1200" y1="320" x2="1186.0" y2="330.0" stroke="black" stroke-width="3"/>
+<text x="982" y="308" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" font-style="normal" text-anchor="start" fill="black" dominant-baseline="middle">1</text>
+<text x="1188" y="308" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" font-style="normal" text-anchor="end" fill="black" dominant-baseline="middle">N</text>
+<rect x="1058" y="293" width="54" height="19" fill="white"/>
+<text x="1085" y="302" font-family="Arial, Helvetica, sans-serif" font-size="18" font-style="italic" text-anchor="middle" fill="black" dominant-baseline="middle">action</text>
+<polyline points="800,410 800,480" fill="none" stroke="black" stroke-width="3"/>
+<line x1="808.0" y1="418.0" x2="792.0" y2="418.0" stroke="black" stroke-width="3"/>
+<line x1="800" y1="480" x2="810.0" y2="466.0" stroke="black" stroke-width="3"/>
+<line x1="800" y1="480" x2="800.0" y2="466.0" stroke="black" stroke-width="3"/>
+<line x1="800" y1="480" x2="790.0" y2="466.0" stroke="black" stroke-width="3"/>
+<text x="788" y="398" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" font-style="normal" text-anchor="end" fill="black" dominant-baseline="middle">1</text>
+<text x="812" y="468" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" font-style="normal" text-anchor="start" fill="black" dominant-baseline="middle">N</text>
+<rect x="775" y="436" width="90" height="23" fill="white"/>
+<text x="820" y="445" font-family="Arial, Helvetica, sans-serif" font-size="18" font-style="italic" text-anchor="middle" fill="black" dominant-baseline="middle">appears in</text>
+<polyline points="60,300 30,300 30,750 560,750 560,580 630,580" fill="none" stroke="black" stroke-width="3"/>
+<line x1="52.0" y1="308.0" x2="52.0" y2="292.0" stroke="black" stroke-width="3"/>
+<line x1="630" y1="580" x2="616.0" y2="570.0" stroke="black" stroke-width="3"/>
+<line x1="630" y1="580" x2="616.0" y2="580.0" stroke="black" stroke-width="3"/>
+<line x1="630" y1="580" x2="616.0" y2="590.0" stroke="black" stroke-width="3"/>
+<text x="48" y="288" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" font-style="normal" text-anchor="end" fill="black" dominant-baseline="middle">1</text>
+<text x="618" y="568" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" font-style="normal" text-anchor="end" fill="black" dominant-baseline="middle">N</text>
+<rect x="363" y="724" width="76" height="23" fill="white"/>
+<text x="400" y="733" font-family="Arial, Helvetica, sans-serif" font-size="18" font-style="italic" text-anchor="middle" fill="black" dominant-baseline="middle">topology</text>
+<polyline points="900,380 1000,380 1000,830 1140,830" fill="none" stroke="black" stroke-width="3"/>
+<line x1="908.0" y1="372.0" x2="908.0" y2="388.0" stroke="black" stroke-width="3"/>
+<line x1="1140" y1="830" x2="1126.0" y2="820.0" stroke="black" stroke-width="3"/>
+<line x1="1140" y1="830" x2="1126.0" y2="830.0" stroke="black" stroke-width="3"/>
+<line x1="1140" y1="830" x2="1126.0" y2="840.0" stroke="black" stroke-width="3"/>
+<text x="912" y="368" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" font-style="normal" text-anchor="start" fill="black" dominant-baseline="middle">1</text>
+<text x="1128" y="818" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" font-style="normal" text-anchor="end" fill="black" dominant-baseline="middle">N</text>
+<rect x="998" y="806" width="65" height="19" fill="white"/>
+<text x="1030" y="815" font-family="Arial, Helvetica, sans-serif" font-size="18" font-style="italic" text-anchor="middle" fill="black" dominant-baseline="middle">derives</text>
+<polyline points="1370,700 1370,780" fill="none" stroke="black" stroke-width="3"/>
+<line x1="1378.0" y1="708.0" x2="1362.0" y2="708.0" stroke="black" stroke-width="3"/>
+<line x1="1370" y1="780" x2="1380.0" y2="766.0" stroke="black" stroke-width="3"/>
+<line x1="1370" y1="780" x2="1370.0" y2="766.0" stroke="black" stroke-width="3"/>
+<line x1="1370" y1="780" x2="1360.0" y2="766.0" stroke="black" stroke-width="3"/>
+<text x="1358" y="688" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" font-style="normal" text-anchor="end" fill="black" dominant-baseline="middle">1</text>
+<text x="1382" y="768" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" font-style="normal" text-anchor="start" fill="black" dominant-baseline="middle">N</text>
+<rect x="1368" y="734" width="45" height="16" fill="white"/>
+<text x="1390" y="740" font-family="Arial, Helvetica, sans-serif" font-size="18" font-style="italic" text-anchor="middle" fill="black" dominant-baseline="middle">uses</text>
+<text x="1160" y="1022" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" font-style="italic" text-anchor="start" fill="black" dominant-baseline="middle">Planned; not deployed.</text>
+<text x="60" y="1090" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" font-style="normal" text-anchor="start" fill="black" dominant-baseline="middle">PK</text>
+<text x="100" y="1090" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="400" font-style="normal" text-anchor="start" fill="black" dominant-baseline="middle">primary key</text>
+<text x="250" y="1090" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" font-style="normal" text-anchor="start" fill="black" dominant-baseline="middle">FK</text>
+<text x="290" y="1090" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="400" font-style="normal" text-anchor="start" fill="black" dominant-baseline="middle">foreign key</text>
+<text x="470" y="1090" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" font-style="normal" text-anchor="start" fill="black" dominant-baseline="middle">1</text>
+<text x="490" y="1090" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="400" font-style="normal" text-anchor="start" fill="black" dominant-baseline="middle">one</text>
+<text x="590" y="1090" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" font-style="normal" text-anchor="start" fill="black" dominant-baseline="middle">N</text>
+<text x="610" y="1090" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="400" font-style="normal" text-anchor="start" fill="black" dominant-baseline="middle">many</text>
+<text x="730" y="1090" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" font-style="normal" text-anchor="start" fill="black" dominant-baseline="middle">0..1</text>
+<text x="780" y="1090" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="400" font-style="normal" text-anchor="start" fill="black" dominant-baseline="middle">optional one</text>
+<text x="800.0" y="1180" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="400" font-style="italic" text-anchor="middle" fill="black" dominant-baseline="middle">Derived Savings is a planned reporting entity; local Hub records remain the operational source.</text>
+</svg>
