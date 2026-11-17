@@ -193,8 +193,8 @@ def chart_33():
 def chart_34():
     c = Chart(1600, 1000)
     frame(c, "ISO/IEC 25010 CHARACTERISTIC MEANS", "Five IT professional evaluators; 4-point scale; axis starts at 3.0")
-    labels = ["Functional suitability", "Performance efficiency", "Reliability", "Usability", "Security", "Compatibility", "Maintainability", "Portability"]
-    vals = [3.60, 3.52, 3.87, 3.50, 3.50, 3.60, 3.56, 3.60]
+    labels = ["Functional suitability", "Performance efficiency", "Compatibility", "Interaction capability", "Reliability", "Security", "Maintainability", "Flexibility"]
+    vals = [3.60, 3.50, 3.80, 3.66, 3.44, 3.60, 3.55, 3.60]
     x0, y0, w, h = 500, 170, 1000, 650
     xmin, xmax = 3.0, 4.0
     def xp(v): return x0 + (v - xmin) / (xmax - xmin) * w

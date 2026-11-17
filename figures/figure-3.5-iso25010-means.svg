@@ -20,24 +20,24 @@
 <rect x="500" y="182.0" width="600.0" height="52" fill="black" stroke="black" stroke-width="3"/>
 <text x="1090.0" y="208.0" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="700" text-anchor="end" fill="white" dominant-baseline="middle">3.60</text>
 <text x="482" y="289.25" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="400" text-anchor="end" fill="black" dominant-baseline="middle">Performance efficiency</text>
-<rect x="500" y="263.25" width="520.0" height="52" fill="black" stroke="black" stroke-width="3"/>
-<text x="1010.0" y="289.25" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="700" text-anchor="end" fill="white" dominant-baseline="middle">3.52</text>
-<text x="482" y="370.5" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="400" text-anchor="end" fill="black" dominant-baseline="middle">Reliability</text>
-<rect x="500" y="344.5" width="870.0" height="52" fill="black" stroke="black" stroke-width="3"/>
-<text x="1360.0" y="370.5" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="700" text-anchor="end" fill="white" dominant-baseline="middle">3.87</text>
-<text x="482" y="451.75" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="400" text-anchor="end" fill="black" dominant-baseline="middle">Usability</text>
-<rect x="500" y="425.75" width="500.0" height="52" fill="black" stroke="black" stroke-width="3"/>
-<text x="990.0" y="451.75" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="700" text-anchor="end" fill="white" dominant-baseline="middle">3.50</text>
-<text x="482" y="533.0" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="400" text-anchor="end" fill="black" dominant-baseline="middle">Security</text>
-<rect x="500" y="507.0" width="500.0" height="52" fill="black" stroke="black" stroke-width="3"/>
-<text x="990.0" y="533.0" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="700" text-anchor="end" fill="white" dominant-baseline="middle">3.50</text>
-<text x="482" y="614.25" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="400" text-anchor="end" fill="black" dominant-baseline="middle">Compatibility</text>
+<rect x="500" y="263.25" width="500.0" height="52" fill="black" stroke="black" stroke-width="3"/>
+<text x="990.0" y="289.25" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="700" text-anchor="end" fill="white" dominant-baseline="middle">3.50</text>
+<text x="482" y="370.5" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="400" text-anchor="end" fill="black" dominant-baseline="middle">Compatibility</text>
+<rect x="500" y="344.5" width="799.9999999999998" height="52" fill="black" stroke="black" stroke-width="3"/>
+<text x="1289.9999999999998" y="370.5" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="700" text-anchor="end" fill="white" dominant-baseline="middle">3.80</text>
+<text x="482" y="451.75" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="400" text-anchor="end" fill="black" dominant-baseline="middle">Interaction capability</text>
+<rect x="500" y="425.75" width="660.0" height="52" fill="black" stroke="black" stroke-width="3"/>
+<text x="1150.0" y="451.75" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="700" text-anchor="end" fill="white" dominant-baseline="middle">3.66</text>
+<text x="482" y="533.0" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="400" text-anchor="end" fill="black" dominant-baseline="middle">Reliability</text>
+<rect x="500" y="507.0" width="440.0" height="52" fill="black" stroke="black" stroke-width="3"/>
+<text x="930.0" y="533.0" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="700" text-anchor="end" fill="white" dominant-baseline="middle">3.44</text>
+<text x="482" y="614.25" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="400" text-anchor="end" fill="black" dominant-baseline="middle">Security</text>
 <rect x="500" y="588.25" width="600.0" height="52" fill="black" stroke="black" stroke-width="3"/>
 <text x="1090.0" y="614.25" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="700" text-anchor="end" fill="white" dominant-baseline="middle">3.60</text>
 <text x="482" y="695.5" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="400" text-anchor="end" fill="black" dominant-baseline="middle">Maintainability</text>
-<rect x="500" y="669.5" width="560.0" height="52" fill="black" stroke="black" stroke-width="3"/>
-<text x="1050.0" y="695.5" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="700" text-anchor="end" fill="white" dominant-baseline="middle">3.56</text>
-<text x="482" y="776.75" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="400" text-anchor="end" fill="black" dominant-baseline="middle">Portability</text>
+<rect x="500" y="669.5" width="549.9999999999998" height="52" fill="black" stroke="black" stroke-width="3"/>
+<text x="1039.9999999999998" y="695.5" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="700" text-anchor="end" fill="white" dominant-baseline="middle">3.55</text>
+<text x="482" y="776.75" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="400" text-anchor="end" fill="black" dominant-baseline="middle">Flexibility</text>
 <rect x="500" y="750.75" width="600.0" height="52" fill="black" stroke="black" stroke-width="3"/>
 <text x="1090.0" y="776.75" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="700" text-anchor="end" fill="white" dominant-baseline="middle">3.60</text>
 <polyline points="1090.0,160 1090.0,820" fill="none" stroke="black" stroke-width="2" stroke-dasharray="10 7"/>
